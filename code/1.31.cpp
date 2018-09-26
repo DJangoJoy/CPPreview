@@ -1,0 +1,25 @@
+#include<iostream>
+using namespace std;
+
+
+int max(int,int);
+
+
+int main(){
+	int a,b,m;
+	cin>>a>>b;
+	m=max(a,b);
+	cout<<"The max is"<<m<<endl;
+	return 0;
+} 
+
+
+int max(int x,int y){
+	int z;
+	if(x>y){
+		z=x;
+	}else{
+		z=y;
+	}
+	return z;
+}
